@@ -1,8 +1,9 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import matplotlib.pyplot as plt
-import seaborn as sns
 import calendar 
+import numpy as np 
+import pandas as pd 
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 
 
 def client_df(df,ID):
@@ -13,7 +14,6 @@ def arange_df(df):
     df['FECHA'] = pd.to_datetime(df['FECHA'], format='%d/%m/%Y')
     df.sort_values('FECHA',inplace=True)
     return df 
-
 
 
 def monthly_balance(df):
