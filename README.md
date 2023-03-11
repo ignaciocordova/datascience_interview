@@ -1,4 +1,4 @@
-# Bank Client Personal Finance Dashboard
+# Bank Client Personal Finance Report
 
 This project is about analyzing personal finance data of bank clients and creating a report with visualizations and data analytics for different clients. The project was a part of a data science job interview exercise, where I had to analyze multiple interconnected spreadsheets after transforming them to pandas data frames.
 
